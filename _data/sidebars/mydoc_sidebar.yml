@@ -34,7 +34,7 @@ entries:
 
     folderitems:
 
-    - title: IOOS Catalog of Services and Datasets
+    - title: "IOOS Catalog of Data and Services"
       url: /index.html#ioos-catalog-of-services-and-datasets
       output: web
 
