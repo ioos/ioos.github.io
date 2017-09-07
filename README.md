@@ -1,4 +1,4 @@
-# animal-telemetry
-Data and metadata services for animal telemetry.
+# ioos.github.io
+IOOS Documentation Portal.
 
-See website at http://ioos.github.io/animal-telemetry .
+See website at http://ioos.github.io
