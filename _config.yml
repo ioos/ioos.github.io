@@ -1,10 +1,10 @@
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: National Animal Telemetry Network Home
+topnav_title: IOOS Documentation Portal Home
 # this appears on the top navigation bar next to the home button
 
-site_title: IOOS GitHub Documentation
+site_title: IOOS GitHub Documentation Portal
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: US IOOS
@@ -135,11 +135,11 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 
 # added settings for IOOS:
 url                      : "https://ioos.github.io"
-baseurl                  : "/animal-telemetry"
+baseurl                  : ""
 
 repository               : "ioos/documentation-theme-jekyll"
 
-github_editme_path       : "ioos/animal-telemetry/blob/gh-pages/_docs"
+github_editme_path       : "ioos/ioos.github.io/blob/master/_docs" 
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 #Setup/config for 'ioos_jekyll_theme' git submodule:

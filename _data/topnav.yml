@@ -12,12 +12,12 @@ topnav_dropdowns:
   folders:
     - title: IOOS Documentation & Data Sites
       folderitems:
-        - title: IOOS Documentation Portal
+        - title: "<b>IOOS Documentation Portal</b>"
           external_url: http://ioos.github.io/
-        - ____________________________________
-        - title: IOOS Repositories on GitHub
+        - title: <b>IOOS Repositories on GitHub</b>
           external_url: https://github.com/ioos
-        - ===========================================================
+        - 
+        - 
         - title: DMAC Implementation Guidelines for Data Providers
           external_url: https://ioos.noaa.gov/data/contribute-data/
 #        - title: IOOS Data Catalog
