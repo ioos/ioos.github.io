@@ -30,8 +30,8 @@ topnav_dropdowns:
           external_url: https://ioos.github.io/i52n-sos/
         - title: IOOS Service Registration Guidelines
           external_url: https://ioos.github.io/registry/
-        - title: IOOS Configuration Management Guidelines
-          external_url: https://ioos.github.io/configuration-management
+#        - title: IOOS Configuration Management Guidelines
+#          external_url: https://ioos.github.io/configuration-management
         - title: IOOS CF-netCDF Guidelines
           external_url: https://ioos.github.io/ioos-netcdf/
         - title: IOOS Compliance Checker on GitHub 

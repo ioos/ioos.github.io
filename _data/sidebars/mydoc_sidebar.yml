@@ -20,36 +20,6 @@ entries:
       output: pdf
       type: frontmatter
 
-#  - title: IOOS SOS Application Profile 1.0
-#    output: web
-#
-#    folderitems:
-#
-#    - title: Introduction to Guidelines for IOOS SOS 1.0
-#      url: /animal-telemetry-jekyll/index.html
-#      output: web
-
-  - title: "Projects"
-    output: web, pdf
-
-    folderitems:
-
-    - title: "IOOS Catalog of Data and Services"
-      url: /index.html#ioos-catalog-of-services-and-datasets
-      output: web
-
-    - title: System Integration Test
-      url: /index.html#system-integration-test
-      output: web
-
-    - title: IOOS ncSOS
-      url: /index.html#ioos-ncsos
-      output: web
-
-    - title: i52N and related activities
-      url: /index.html#i52n-and-related-activities-sensor-web-harvesters-test-tools-etc
-      output: web
-
   - title: "Guidelines & Specifications"
     output: web
 
@@ -98,4 +68,26 @@ entries:
     - title: Passive Acoustics Metadata
       url: /index.html#passive-acoustics-metadata
       output: web
+
+  - title: "Projects"
+    output: web, pdf
+
+    folderitems:
+
+    - title: "IOOS Catalog of Data and Services"
+      url: /index.html#ioos-catalog-of-services-and-datasets
+      output: web
+
+    - title: System Integration Test
+      url: /index.html#system-integration-test
+      output: web
+
+    - title: IOOS ncSOS
+      url: /index.html#ioos-ncsos
+      output: web
+
+    - title: i52N and related activities
+      url: /index.html#i52n-and-related-activities-sensor-web-harvesters-test-tools-etc
+      output: web
+
 
