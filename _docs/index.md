@@ -11,6 +11,38 @@ summary: IOOS Documentation Portal is a doorway to IOOS resources on GitHub and 
 ---
 
 
+<<<<<<< HEAD
+=======
+## **Projects**{: style="color: crimson"}
+
+<!-- <a name="System Integration Test"></a> -->
+
+* * *
+
+### **IOOS Catalog of Data and Services**{: style="color: crimson"}
+
+* [The IOOS Data Catalog](http://data.ioos.us) (current version)
+* [IOOS Catalog GitHub repository for documentation and issues](https://github.com/ioos/catalog)
+* Another [GitHub repository](https://github.com/ioos/service-monitor) that holds source codes and modules of the IOOS Service Monitor (old version of the IOOS Catalog)
+
+### **System Integration Test**{: style="color: crimson"}
+
+The [system integration test development site](https://github.com/ioos/system-test) on github contains IPython notebooks demonstrating how to access data from servers in various scenarios. 
+
+### **IOOS ncSOS**{: style="color: crimson"}
+
+The [IOOS ncSOS](https://github.com/asascience-open/ncSOS) adds an OGC SOS service to datasets in your existing THREDDS server. It complies with the [IOOS SWE Milestone 1.0 templates](https://github.com/ioos/sos-guidelines/tree/master/template/milestone1.0) and requires your datasets be in any of the [CF 1.6 Discrete Sampling Geometries](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.6/build/cf-conventions.html#discrete-sampling-geometries).
+
+### **i52N and related activities (sensor web harvesters, test tools, etc.)**{: style="color: crimson"}
+
+*  [i52N-SOS](http://ioos.github.io/i52n-sos/), an IOOS customized build of the [52°North Sensor Observation Service (SOS)](http://52north.org/sos) that extends the stock upstream [52°North SOS](https://github.com/52North/SOS) with IOOS specific encoding formats, test data, and more.
+* [IOOS SOS Compliance Test Tool](https://github.com/ioos/ioos-sos-compliance-tests), a set of CTL ([compliance test language](http://portal.opengeospatial.org/files/?artifact_id=33085)) files and utility scripts for thorough standard validation and test of the IOOS SOS implementations.
+
+<!-- * [IOOS SOS Validator](https://github.com/ioos/ioos-sos-validator) for simple schema validation of SOS responses and templates --> 
+
+<br><br>
+
+>>>>>>> 540e9f90b5a817193e0e96063d5dbff18945e11b
 ## **Guidelines and Specifications**{: style="color: crimson"}
 
 * * *
@@ -90,6 +122,7 @@ The [Metadata Convention for Passive Acoustic Recording](https://ioos.github.io/
 To make changes to this website and add information, see the [Website Deployment Workflow](website_deployment_workflow_updated) page. 
 
 -->
+<<<<<<< HEAD
 
 <br><br>
 
@@ -122,3 +155,5 @@ The [IOOS ncSOS](https://github.com/asascience-open/ncSOS) adds an OGC SOS servi
 
 <br><br>
 
+=======
+>>>>>>> 540e9f90b5a817193e0e96063d5dbff18945e11b
