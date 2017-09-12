@@ -11,8 +11,6 @@ summary: IOOS Documentation Portal is a doorway to IOOS resources on GitHub and 
 ---
 
 
-<<<<<<< HEAD
-=======
 ## **Projects**{: style="color: crimson"}
 
 <!-- <a name="System Integration Test"></a> -->
@@ -42,7 +40,6 @@ The [IOOS ncSOS](https://github.com/asascience-open/ncSOS) adds an OGC SOS servi
 
 <br><br>
 
->>>>>>> 540e9f90b5a817193e0e96063d5dbff18945e11b
 ## **Guidelines and Specifications**{: style="color: crimson"}
 
 * * *
@@ -155,5 +152,3 @@ The [IOOS ncSOS](https://github.com/asascience-open/ncSOS) adds an OGC SOS servi
 
 <br><br>
 
-=======
->>>>>>> 540e9f90b5a817193e0e96063d5dbff18945e11b
