@@ -19,7 +19,7 @@ summary: IOOS Documentation Portal is a doorway to IOOS resources on GitHub and 
 
 ### **IOOS Catalog of Data and Services**{: style="color: crimson"}
 
-* [The IOOS Web Catalog](http://catalog.ioos.us) (current version)
+* [The IOOS Data Catalog](http://data.ioos.us) (current version)
 * [IOOS Catalog GitHub repository for documentation and issues](https://github.com/ioos/catalog)
 * Another [GitHub repository](https://github.com/ioos/service-monitor) that holds source codes and modules of the IOOS Service Monitor (old version of the IOOS Catalog)
 
