@@ -33,9 +33,9 @@ entries:
       url: /index.html#ioos-service-registration
       output: web
 
-    - title: IOOS Configuration Management
-      url: /index.html#ioos-configuration-management
-      output: web
+#    - title: IOOS Configuration Management
+#      url: /index.html#ioos-configuration-management
+#      output: web
 
     - title: IOOS SOS Guidelines 
       url: /index.html#ioos-sos-guidelines
