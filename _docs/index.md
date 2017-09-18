@@ -11,7 +11,7 @@ summary: IOOS Documentation Portal is a doorway to IOOS resources on GitHub and 
 ---
 
 
-## **Guidelines and Specifications**{: style="color: crimson"}
+## **Guidelines and Specifications**{: style="color: crimson"} 
 
 * * *
 
