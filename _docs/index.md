@@ -102,7 +102,7 @@ To make changes to this website and add information, see the [Website Deployment
 
 ### **IOOS Catalog of Data and Services**{: style="color: crimson"}
 
-* [The IOOS Web Catalog](http://catalog.ioos.us) (current version)
+* [The IOOS Data Catalog](http://data.ioos.us).  Open data catalog powered by CKAN and pycsw providing an inventory of IOOS' data products and services.  More Catalog documentation available here: https://ioos.github.io/catalog.
 * [IOOS Catalog GitHub repository for documentation and issues](https://github.com/ioos/catalog)
 * Another [GitHub repository](https://github.com/ioos/service-monitor) that holds source codes and modules of the IOOS Service Monitor (old version of the IOOS Catalog)
 
