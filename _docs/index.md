@@ -19,9 +19,9 @@ summary: IOOS Documentation Portal is a doorway to IOOS resources on GitHub and 
 
 The [Guidance for Implementation of the Integrated Ocean Observing System (IOOS) Data Management and Communications (DMAC) Subsystem](https://ioos.noaa.gov/data/contribute-data/) describes the responsibilities of an IOOS Data Provider published on the official IOOS Web site.
 
-### **IOOS Service Registration**{: style="color: crimson"}
+### **IOOS Service and Data Registration**{: style="color: crimson"}
 
-Registration of the IOOS services allows the wide range of various clients to efficiently discover U.S. IOOS data. The [IOOS Service Registration Guide](http://ioos.github.io/registry/) describes the registration process, elaborates on IOOS Catalog and NGDC Registry interaction, and provides examples of Registry querying for metadata. 
+Registration of the IOOS services and data with IOOS Harvest Registry allows the wide range of various clients efficiently discover U.S. IOOS data. The [IOOS Service & Data Registration Guide](https://ioos.github.io/catalog/pages/registry/) describes the Harvest Registry API, elaborates on registration process details and best practices for IOOS Data Provider, and provides examples of useful scripts. 
 
 <!--
 ### **IOOS Configuration Management**{: style="color: crimson"}
@@ -104,7 +104,7 @@ To make changes to this website and add information, see the [Website Deployment
 
 ### **IOOS Catalog of Data and Services**{: style="color: crimson"}
 
-* [The IOOS Data Catalog](http://data.ioos.us).  Open data catalog powered by CKAN and pycsw providing an inventory of IOOS' data products and services.  More Catalog documentation available here: [https://ioos.github.io/catalog](https://ioos.github.io/catalog).
+* [The IOOS Data Catalog](http://data.ioos.us).  Open data catalog powered by CKAN and pycsw providing an inventory of IOOS' data products and services.  More Catalog documentation available at [https://ioos.github.io/catalog](https://ioos.github.io/catalog).
 * [IOOS Catalog GitHub repository for documentation and issues](https://github.com/ioos/catalog)
 * Another [GitHub repository](https://github.com/ioos/service-monitor) that holds source codes and modules of the IOOS Service Monitor (old version of the IOOS Catalog)
 

@@ -22,14 +22,14 @@ topnav_dropdowns:
           external_url: https://ioos.noaa.gov/data/contribute-data/
 #        - title: IOOS Data Catalog
 #          external_url: https://data.ioos.us/
-        - title: IOOS Catalog Documentation on GitHub
+        - title: IOOS Data Catalog Documentation
           external_url: https://github.com/ioos/catalog
+        - title: IOOS Service & Data Registration Guidelines
+          external_url: https://ioos.github.io/catalog/pages/registry/
         - title: IOOS ncSOS on GitHub
           external_url: https://github.com/asascience-open/ncSOS
         - title: IOOS i52N SOS on GitHub
           external_url: https://ioos.github.io/i52n-sos/
-        - title: IOOS Service Registration Guidelines
-          external_url: https://ioos.github.io/registry/
 #        - title: IOOS Configuration Management Guidelines
 #          external_url: https://ioos.github.io/configuration-management
         - title: IOOS CF-netCDF Guidelines
