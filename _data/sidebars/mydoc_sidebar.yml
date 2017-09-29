@@ -90,12 +90,12 @@ entries:
       url: /index.html#i52n-and-related-activities-sensor-web-harvesters-test-tools-etc
       output: web
 
-  - title: "Publishing & Updating IOOS Documentation GitHub Pages"
+  - title: "Working with IOOS GitHub Pages"
     output: web
 
     folderitems:
 
-    - title: "Getting started with the IOOS Documentation Theme for Jekyll"
+    - title: "Getting started with IOOS Documentation Theme"
       url: /website-deployment-jekyll.html
       output: web
 

@@ -1,5 +1,5 @@
 ---
-title: Getting started with the IOOS Documentation Theme for Jekyll
+title: Getting started with IOOS Documentation Theme
 keywords: sample homepage
 tags: [getting_started, about, overview]
 sidebar: mydoc_sidebar
@@ -7,11 +7,11 @@ topnav: topnav
 toc: false
 search: exclude
 #permalink: index.html
-summary: These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
+summary: These brief instructions will help you get started quickly with the IOOS Documentation Theme for Jekyll.
 ---
 
 
-## Build a Documentation Site with the Theme
+## Building a Documentation Site with the Theme
 
 Follow these instructions to build the new documentation site on GitHub Pages with the IOOS Documentation Theme for Jekyll adapted for IOOS specifics. The [IOOS Documentation Theme for Jekyll](https://github.com/ioos/documentation-theme-jekyll) is a fork of the original ["Documentation Theme for Jekyll"](https://github.com/tomjohnson1492/documentation-theme-jekyll) modified for the IOOS specifics. 
 
@@ -28,20 +28,22 @@ Deploying this template for your own IOOS-branded GitHub Pages documentation sit
 
 In the event that the documentation site had already been deployed, and all it takes is just a minor text update, it can be done by editing the content markdown files content directly on GitHub with a browser; no software installation is required in such case. 
 
-### 1. Local Jekyll Development
+### STEP 1. Local Jekyll Development
 
-**If you can't run Ruby/Jekyll on your workstation, skip this section and go to Step 2.**{: style="color: red"}
+<!-- <br>
+{::nomarkdown}<p style="color:blue; font-size:120%; border:3px solid red; padding:15px; text-align:center"> If you can't run Ruby/Jekyll on your workstation, go to Step 2 </p>{:/}
+<br> -->
 
 Running Jekyll locally will allow for faster site development, but you need to install Ruby on your workstation. If you are able to run the Ruby/Jekyll environment locally, refer to the comprehensive instructions provided in the [Installation section](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_about_ruby_gems_etc.html) of the Jekyll Documentation Theme. More details can be found on the web pages from the Reference section below.
 
-### 2. Download and install the theme
+### STEP 2. Download and install the theme
 
 If you can't run Ruby/Jekyll on your workstation, you can still make a GitHub Pages documentation site based on this
 template.  The process to do this is to download the code from the 'gh-pages' branch of the "IOOS Documentation Theme for Jekyll" repository, adapt for your site needs, and publish to a 'gh-pages' branch of your own repository. 
 
 Depending on how familiar you are with the 'git' software, and whether you already have GitHub repository that just need to be wrapped into IOOS theme, you may choose one of the following paths:
 
-#### 2a. Conversion of the existing GitHub repository to the IOOS Documentation Theme
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2a. Conversion of the existing GitHub repository to the IOOS Documentation Theme
 
 First download the theme from the [Github repo](https://github.com/ioos/documentation-theme-jekyll): 
 
@@ -68,7 +70,7 @@ git commit -a -m "Initial GitHub Pages site built using 'IOOS Documentation Them
 git push origin gh-pages
 ```
 
-#### 2b. Publishing a new GitHub documentation site with the IOOS Documentation Theme 
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2b. Publishing a new GitHub documentation site with the IOOS Documentation Theme 
 
 First you need to create a new target repository. For example, you created a repository 'my-new-doc-repo' in the IOOS organization on GitHub.
 
@@ -100,7 +102,7 @@ The important files and directories to modify the template are the following:
 
 - All published documents in Markdown must be placed into the '_docs' directory, where they can be edited with any true text editor such as 'vi', 'emacs', 'notepad', 'notepad++', etc.  Alternatively,  if you just need to edit a document or two on the existing site, you may do that directly on GitHub with your browser. However, this is the least preferable method as it breaks the commit sequence.  
 
-### 1. Configure the side navigation bar
+### Configuring side navigation bar
 
 The sidebar navigation adapts to the documentation. Although the theme allows to use several sidebars (see `_config.yaml` file), a single sidebar 'mydoc_sidebar' is used by default for IOOS implementation. The sidebar name must be specified in a page's frontmatter. Here's an example of the page frontmatter showing the sidebar property:
 
@@ -120,7 +122,7 @@ The `sidebar: mydoc_sidebar` refers to the `\_data/sidebars/mydoc_sidebar.yml` f
 
 For more details on the sidebar syntax, see [Sidebar navigation](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_sidebar_navigation.html).
 
-### 2. Configure the top navigation bar
+### Configuring top navigation bar
 
 The top navigation usually remains the same, because it allows users to navigate across other sites. The top navigation works just like the sidebar. You can specify which topnav data file should load by adding a `topnav` property in the document `frontmatter`, like this:
 
@@ -130,7 +132,7 @@ topnav: topnav
 
 Here the `topnav` refers to the `\_data/topnav.yml` file. Most likely, there will be no need to edit the default `topnav.yml` file included into the theme template.
 
-### 3. Edit each Markdown document's 
+### Editing Markdown documents 
 
 This theme uses [kramdown markdown](http://kramdown.gettalong.org/), which is similar to Github-flavored Markdown.
 
