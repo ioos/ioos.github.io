@@ -90,7 +90,7 @@ entries:
       url: /index.html#i52n-and-related-activities-sensor-web-harvesters-test-tools-etc
       output: web
 
-  - title: "Working with IOOS GitHub Pages"
+  - title: "HowTo: IOOS GitHub Pages"
     output: web
 
     folderitems:
