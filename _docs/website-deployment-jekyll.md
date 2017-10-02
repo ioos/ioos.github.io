@@ -150,7 +150,7 @@ Here the `topnav` refers to the `\_data/topnav.yml` file. Most likely, there wil
 
 ### Editing Markdown documents 
 
-This theme uses [kramdown markdown](http://kramdown.gettalong.org/), which is similar to Github-flavored Markdown.
+This theme uses a Kramdown variety of the Markdown - a lightweight markup language with plain text formatting syntax. The Kramdown is a superset of Markdown that supports standard Markdown and various extensions. The GitHub Pages naturally support rendering documents in Kramdown through the GitHub Jekyll implementation. The detailed description of the Kramdown syntax can be found by following the links in the Reference section below.
 
 Every document must start with the so-called frontmatter properties:
 
@@ -199,7 +199,7 @@ This operation should be performed first whenever you modify the content of your
     - [A Guide on Ruby Installation and Setup for Windows 10](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-and-set-up-a-local-programming-environment-on-windows-10)
  - [General information on the way GitHub uses Jekyll in 'GitHub Pages' sites](https://help.github.com/articles/about-github-pages-and-jekyll/)
     - [In particular, how to use a specially-named branch 'gh-pages' to push documentation for a 'Project' page (which most repos will fall under)](https://help.github.com/articles/user-organization-and-project-pages/)
- - GitHub Kramdown - a superset of Markdown that supports standard Markdown and various extensions:
+ - GitHub Kramdown:
     - [Kramdown Syntax](https://kramdown.gettalong.org/syntax.html)
     - [Kramdown Quick Reference](https://kramdown.gettalong.org/quickref.html) 
 
