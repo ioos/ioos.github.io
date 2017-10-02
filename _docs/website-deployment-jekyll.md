@@ -101,11 +101,10 @@ The important files and directories to modify the template are the following:
 |/\_docs/index.md| This markdown file that contains the content for the 'homepage' for the site|
 
 - All published documents in Markdown must be placed into the '_docs' directory, where they can be edited with any true text editor such as 'vi', 'emacs', 'notepad', 'notepad++', etc.  
-- Alternatively,  if you just need to edit a document or two on the existing site, you may do that directly on GitHub with your browser:
-   - Go to the repository you want to edit;
-   - Switch to 'gh-pages' branch;
-   - Find the Markdown file you want to edit in the '_docs' folder, click on it, and then open it for editing by clicking on the "pencil" icon at the right side above the file content;
-   - Make all changes, preview them to make sure that everything is OK, and commit them to the 'gh-pages' (make sure that the "Commit directly to the gh-pages branch" option is checked).      
+- Alternatively,  if you just need to edit a document or two on the existing site, you may do that directly on GitHub with your browser in 3 simle steps:
+   1. Go to the page you want to edit, and click on the "Edit me" button just below the page Title and Summary;
+   2. Open it for editing by clicking on the "pencil" icon at the right side above the file content;
+   3. Make all changes, preview them to make sure that everything is OK, and commit them to the 'gh-pages' (make sure that the "Commit directly to the gh-pages branch" option is checked).      
 
 ### Configuring side navigation bar
 
