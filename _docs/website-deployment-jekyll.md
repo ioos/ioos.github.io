@@ -41,6 +41,12 @@ Running Jekyll locally will allow for faster site development, but you need to i
 If you can't run Ruby/Jekyll on your workstation, you can still make a GitHub Pages documentation site based on this
 template.  The process to do this is to download the code from the 'gh-pages' branch of the "IOOS Documentation Theme for Jekyll" repository, adapt for your site needs, and publish to a 'gh-pages' branch of your own repository. 
 
+[**Figure 1**](#Fig_1) depicts a process flowchart that encompasses the possible options for creating or modifying an IOOS Documentation GitHub Pages with the IOOS Documentation Theme for Jekyll.  
+
+![](./process.png)
+
+<a name="Fig_1"></a> **Figure 1: IOOS Documentation Site Creation/Modification Process**
+
 Depending on how familiar you are with the 'git' software, and whether you already have GitHub repository that just need to be wrapped into IOOS theme, you may choose one of the following paths:
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2a. Conversion of the existing GitHub repository to the IOOS Documentation Theme
@@ -53,13 +59,12 @@ git clone --recursive -b gh-pages https://github.com/ioos/documentation-theme-je
 cd documentation-theme-jekyll
 ```
 
-Next, you will need to copy the files downloaded to the 'documentation-theme-jekyll' directory to your target repository. For an existing repository, the easiest way to do this is to create a new 'gh-pages' branch, and then remove all git-tracked files and replace by the template code.  Roughly, this looks like (use with caution):
+Next, you will need to copy the files downloaded to the 'documentation-theme-jekyll' directory to your target repository. For an existing repository, the easiest way to do this is to create a new "orphan" `gh-pages` branch, and then remove all git-tracked files and replace by the template code.  Roughly, this looks like (use with caution):
 
 ```
 cd /my/target/repository
-git checkout -b gh-pages master
-git rm -r *
-git rm .*
+git checkout --orphan gh-pages
+git rm -rf .
 ```
 Then copy the content of the 'documentation-theme-jekyll' repository into you target repository, and add all the files to git for tracking **`git add --all`**. Once you have the code in hand, instructions below describe relevant files to modify to adapt the template to your needs.
 
@@ -78,7 +83,7 @@ Next, you need to mirror a bare-bone repository 'ioos-documentation-jekyll-skele
 
 ``` 
 git clone --bare -b gh-pages https://github.com/ioos/ioos-documentation-jekyll-skeleton.git
-cd sos-guidelines-jekyll.git
+cd ioos-documentation-jekyll-skeleton.git
 git push --mirror -b gh-pages https://github.com/ioos/my-new-doc-repo.git
 ```
 
@@ -178,7 +183,7 @@ Follow the sample pattern shown in the theme, specifically looking at Markdown s
 
 ### Updating theme templates  
 
-This operation should be performed whenever you modify the content of your site in order to sync it with the IOOS Documentation Theme updates  
+This operation should be performed first whenever you modify the content of your site in order to sync it with the IOOS Documentation Theme updates  
 
 ```
  git submodule update --remote --merge
@@ -194,4 +199,7 @@ This operation should be performed whenever you modify the content of your site 
     - [A Guide on Ruby Installation and Setup for Windows 10](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-and-set-up-a-local-programming-environment-on-windows-10)
  - [General information on the way GitHub uses Jekyll in 'GitHub Pages' sites](https://help.github.com/articles/about-github-pages-and-jekyll/)
     - [In particular, how to use a specially-named branch 'gh-pages' to push documentation for a 'Project' page (which most repos will fall under)](https://help.github.com/articles/user-organization-and-project-pages/)
+ - GitHub Kramdown - a superset of Markdown that supports standard Markdown and various extensions:
+    - [Kramdown Syntax](https://kramdown.gettalong.org/syntax.html)
+    - [Kramdown Quick Reference](https://kramdown.gettalong.org/quickref.html) 
 
