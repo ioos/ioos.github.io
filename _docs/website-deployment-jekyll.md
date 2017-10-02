@@ -134,7 +134,7 @@ permalink: mydoc_alerts
 ---
 ```
 
-The `sidebar: mydoc_sidebar` refers to the `\_data/sidebars/mydoc_sidebar.yml` file. The sidebar data file uses a specific YAML syntax that you must follow. Follow the sample pattern shown in the theme, specically looking at `mydoc_sidebar.yml` as an example.
+The `sidebar: mydoc_sidebar` refers to the `_data/sidebars/mydoc_sidebar.yml` file. The sidebar data file uses a specific YAML syntax that you must follow. Follow the sample pattern shown in the theme, specically looking at `mydoc_sidebar.yml` as an example.
 
 For more details on the sidebar syntax, see [Sidebar navigation](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_sidebar_navigation.html).
 
@@ -146,7 +146,7 @@ The top navigation usually remains the same, because it allows users to navigate
 topnav: topnav
 ```
 
-Here the `topnav` refers to the `\_data/topnav.yml` file. Most likely, there will be no need to edit the default `topnav.yml` file included into the theme template.
+Here the `topnav` refers to the `_data/topnav.yml` file. Most likely, there will be no need to edit the default `topnav.yml` file included into the theme template.
 
 ### Editing Markdown documents 
 
@@ -173,7 +173,7 @@ For titles, surrounding the title in quotes is optional, but if you have a colon
 
 Values for `keywords` get populated into the metadata of the page for SEO.
 
-Values for `tags` must be defined in your \_data/tags.yml list. You also need a corresponding tag file inside the tags folder that follows the same pattern as the other tag files shown in the tags folder. (Jekyll won't auto-create these tag files.)
+Values for `tags` must be defined in your `_data/tags.yml` list. You also need a corresponding tag file inside the tags folder that follows the same pattern as the other tag files shown in the tags folder. (Jekyll won't auto-create these tag files.)
 
 In the current version of the theme, the `permalink` property value interferes with other collection settings; therefore it should be commented in the frontmatter. However, it should not be removed as it may be needed in future versions.
 
