@@ -19,7 +19,7 @@ This single IOOS theme was developed to streamline and simplify management of th
 it will provide a consistent look and feel across all of IOOS' project documentation sites, and will simplify the process
 to update the template across each site if needed.  
 
-This is accomplished by using the git _**'submodule'**_ concept, which allows each individual documentation site to reference this template for the Jekyll boilerplate code.  Updating each downstream documentation site can be accomplished by a **`git submodule update [--remote --merge]`** command, rather than separately modifying
+This is accomplished by using the git _**'submodule'**_ concept, which allows each individual documentation site to reference this template for the Jekyll boilerplate code.  Updating the theme for each downstream documentation site can be accomplished by a **`git submodule update [--remote --merge]`** command, rather than separately modifying
 the Jekyll boilerplate code to match in each.  
 
 ## Getting the IOOS Documentation Theme
@@ -100,7 +100,12 @@ The important files and directories to modify the template are the following:
 |/\_docs/| Directory to place any GitHub-standard markdown content to publish|
 |/\_docs/index.md| This markdown file that contains the content for the 'homepage' for the site|
 
-- All published documents in Markdown must be placed into the '_docs' directory, where they can be edited with any true text editor such as 'vi', 'emacs', 'notepad', 'notepad++', etc.  Alternatively,  if you just need to edit a document or two on the existing site, you may do that directly on GitHub with your browser. However, this is the least preferable method as it breaks the commit sequence.  
+- All published documents in Markdown must be placed into the '_docs' directory, where they can be edited with any true text editor such as 'vi', 'emacs', 'notepad', 'notepad++', etc.  
+- Alternatively,  if you just need to edit a document or two on the existing site, you may do that directly on GitHub with your browser:
+   - Go to the repository you want to edit;
+   - Switch to 'gh-pages' branch;
+   - Find the Markdown file you want to edit in the '_docs' folder, click on it, and then open it for editing by clicking on the "pencil" icon at the right side above the file content;
+   - Make all changes, preview them to make sure that everything is OK, and commit them to the 'gh-pages' (make sure that the "Commit directly to the gh-pages branch" option is checked).      
 
 ### Configuring side navigation bar
 
@@ -164,6 +169,14 @@ In the current version of the theme, the `permalink` property value interferes w
 Value for `search` controls inclusion of the document content into theme search mechanism. If you want to be able to perform basic search through your site documents, make sure that this property is commented in the frontmatter. 
 
 Follow the sample pattern shown in the theme, specifically looking at Markdown sample documents in the `_docs` folder as an example.
+
+### Updating theme templates  
+
+This operation should be performed whenever you modify the content of your site in order to sync it with the IOOS Documentation Theme updates  
+
+```
+ git submodule update --remote --merge
+```
 
 ## References  
 
