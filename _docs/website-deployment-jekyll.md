@@ -110,7 +110,8 @@ The important files and directories to modify the template are the following:
   >
   >```
   >git fetch
-  >git reset --hard origin/[branch-you-made-changes-on]      
+  >git reset --hard origin/[branch-you-made-changes-on] 
+  >```    
 
 ### Configuring side navigation bar
 
