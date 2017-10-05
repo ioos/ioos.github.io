@@ -75,7 +75,7 @@ entries:
     folderitems:
 
     - title: "IOOS Catalog of Data and Services"
-      url: /index.html#ioos-catalog-of-services-and-datasets
+      url: /index.html#ioos-catalog-of-data-and-services
       output: web
 
     - title: System Integration Test
