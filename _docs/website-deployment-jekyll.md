@@ -114,9 +114,11 @@ The important files and directories to modify the template are the following:
   >**Important Note:** in order to keep the local copy of the repository in sync with directly updated remote one, you must run the following commands:
   >
   >```
-  >git fetch
+  >git fetch --all
   >git reset --hard origin/[branch-you-made-changes-on] 
-  >```    
+  >```
+  >
+  > where `git fetch` downloads the latest from remote without trying to merge or rebase anything, and `git reset` resets the branch to what you just fetched; the `--hard` option changes all the files in your working tree to match the files in `origin/[branch-you-made-changes-on]`.
 
 ### Configuring side navigation bar
 
