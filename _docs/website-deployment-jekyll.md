@@ -84,7 +84,7 @@ Next, you need to mirror a bare-bone repository 'ioos-documentation-jekyll-skele
 ``` 
 git clone --bare -b gh-pages https://github.com/ioos/ioos-documentation-jekyll-skeleton.git
 cd ioos-documentation-jekyll-skeleton.git
-git push --mirror -b gh-pages https://github.com/ioos/my-new-doc-repo.git
+git push --mirror https://github.com/ioos/my-new-doc-repo.git
 ```
 
 That's it. You now have a bare-bone documentation repository on GitHub that you can clone to your local computer and modify in accordance with the instructions in the following sections:
