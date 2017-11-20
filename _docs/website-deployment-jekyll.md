@@ -38,8 +38,7 @@ Running Jekyll locally will allow for faster site development, but you need to i
 
 ### STEP 2. Download and install the theme
 
-If you can't run Ruby/Jekyll on your workstation, you can still make a GitHub Pages documentation site based on this
-template.  The process to do this is to download the code from the 'gh-pages' branch of the "IOOS Documentation Theme for Jekyll" repository, adapt for your site needs, and publish to a 'gh-pages' branch of your own repository. 
+If you can't run Ruby/Jekyll on your workstation, you can still make a GitHub Pages documentation site based on this template.  The process to do this is to download the code from the 'gh-pages' branch of the "IOOS Documentation Theme for Jekyll" repository, adapt for your site needs, and publish to a 'gh-pages' branch of your own repository. 
 
 [**Figure 1**](#Fig_1) depicts a process flowchart that encompasses the possible options for creating or modifying an IOOS Documentation GitHub Pages with the IOOS Documentation Theme for Jekyll.  
 
@@ -77,7 +76,8 @@ git push origin gh-pages
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2b. Publishing a new GitHub documentation site with the IOOS Documentation Theme 
 
-First you need to create a new target repository. For example, you created a repository 'my-new-doc-repo' in the IOOS organization on GitHub.
+First you need to create a new target repository. For example, you created a repository 'my-new-doc-repo' in the IOOS organization on GitHub. 
+>**IMPORTANT NOTE:** if you have no need for a `gh-pages` branch (i.e. you only want to publish documents on the Web), do not make a README.md file when GitHub offers to do so - that will create a `master` branch that you do not need. The README.md file will be automatically added to the `gh-pages` branch on the next stage. 
 
 Next, you need to mirror a bare-bone repository 'ioos-documentation-jekyll-skeleton' that includes all necessary file templates onto the newly created repository:  
 
