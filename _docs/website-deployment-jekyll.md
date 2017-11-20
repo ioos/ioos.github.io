@@ -76,8 +76,9 @@ git push origin gh-pages
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2b. Publishing a new GitHub documentation site with the IOOS Documentation Theme 
 
-First you need to create a new target repository. For example, you created a repository 'my-new-doc-repo' in the IOOS organization on GitHub. 
->**IMPORTANT NOTE:** if you have no need for a `gh-pages` branch (i.e. you only want to publish documents on the Web), do not make a README.md file when GitHub offers to do so - that will create a `master` branch that you do not need. The README.md file will be automatically added to the `gh-pages` branch on the next stage. 
+First you need to create a new target repository, for example, a repository 'my-new-doc-repo' in the IOOS organization on GitHub. 
+
+>**IMPORTANT NOTE:** Do not make a README.md file when GitHub offers to do so, if you only want to create a `gh-pages` branch (i.e. you only want to publish documents on the Web) -- that will create a `master` branch, which you do not need. The README.md will be automatically added to the `gh-pages` branch on the next stage, and you will be able to edit it as needed. 
 
 Next, you need to mirror a bare-bone repository 'ioos-documentation-jekyll-skeleton' that includes all necessary file templates onto the newly created repository:  
 
