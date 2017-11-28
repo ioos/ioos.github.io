@@ -57,10 +57,6 @@ entries:
       url: /index.html#vocabularies
       output: web
 
-    - title: Biological Data Services
-      url: /index.html#biological-data-services
-      output: web
-
     - title: Data Services for Animal Telemetry
       url: /index.html#data-services-for-animal-telemetry
       output: web
