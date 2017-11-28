@@ -67,13 +67,6 @@ The [IOOS Convention for Observing Asset Identifiers](http://ioos.github.io/conv
 
 A [collection](https://github.com/ioos/vocabularies) of guidelines on the Controlled Vocabularies usage in IOOS-compliant data services (the link temporarily leads to the GitHub repository itself rather then to the GitHub Pages).
 
-### **Biological Data Services**{: style="color: crimson"} 
-
-A [collection](http://ioos.github.io/biological-data-services/) of documents describing data services for biological objects:
-
-* [Data Enrollment Process](http://ioos.github.io/biological-data-services/biological-data-procedure/) proposed and supported by IOOS DMAC to support sharing and integration of aquatic biological data.
-* [IOOS Biological Observations Services](http://ioos.github.io/biological-data-services/biological-observations/) that address the DMAC requirements for biological observations standards and interoperability.
-
 ### **Data Services for Animal Telemetry**{: style="color: crimson"}
 
 A [collection](http://ioos.github.io/animal-telemetry/) of documents describing animal telemetry implementation: 
