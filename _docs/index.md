@@ -1,120 +1,101 @@
 ---
 title: "IOOS Documentation Portal"
-keywords: homepage
-tags: [getting_started, about, overview]
-#sidebar: home_sidebar
-sidebar: mydoc_sidebar
-topnav: topnav
+keywords: [DMAC, homepage, documentation, guidelines, specifications]
+tags: [DMAC, homepage, documentation, guidelines, specifications]
+#topnav: topnav
 toc: false
 #permalink: index.html
-summary: IOOS Documentation Portal is a doorway to IOOS resources on GitHub and otherwise; a collection of links to the guides, conventions, procedures and templates that define the IOOS Data Management And Communication (DMAC) strategy
+summary: IOOS Documentation Portal is a collection of IOOS Data Management and Communication (DMAC) guidelines, specifications, and software tools that allow IOOS data provider organizations to publish their data in an interoperable fashion adhering to DMAC principles.  This page describes the various components and where to find more information on each.
 ---
 
 
-## **Guidelines and Specifications**{: style="color: crimson"} 
-
+## **Guidelines and Specifications**
+Technical documentation for the guidelines and specifications that define the DMAC system.
 * * *
 
-### **DMAC Implementation Guidelines for Data Providers**{: style="color: crimson"}
+### **DMAC Implementation Requirements and Guidelines for IOOS Data Providers**
+The Data Management and Communication (DMAC) Implementation Requirements site outlines the processes US Integrated Ocean Observing System (IOOS) data providers must comply with in order to properly implement an IOOS DMAC system.  This resource, published on IOOS' official NOAA website, represents the overall procedural requirements in order for data providers to contribute their data to the IOOS data management enterprise.  
+* [DMAC Implementation Requirements for IOOS Data Providers](https://ioos.noaa.gov/data/contribute-data/)
 
-The [Guidance for Implementation of the Integrated Ocean Observing System (IOOS) Data Management and Communications (DMAC) Subsystem](https://ioos.noaa.gov/data/contribute-data/) describes the responsibilities of an IOOS Data Provider published on the official IOOS Web site.
+The individual documentation sites listed below provide the specific technical guidance as it pertains to the overall high-level requirements outlined in the IOOS Data Contributor site.  The software and tools section contains links to several resources data providers can use to assist in this process.
 
-### **IOOS Service and Data Registration**{: style="color: crimson"}
+### **IOOS Metadata Profile**
+The IOOS Metadata Profile contains dataset attribution guidelines and examples to help the US IOOS community publish datasets in netCDF and other related data formats in an interoperable manner.  The goal of the metadata profile is to allow users of IOOS' data services, such as ERDDAP, THREDDS, OPeNDAP, and SOS, seamless access and use across individual IOOS data providers' services.
+* [IOOS Metadata Profile](https://ioos.github.io/ioos-metadata/)
 
-Registration of the IOOS services and data with IOOS Harvest Registry allows the wide range of various clients efficiently discover U.S. IOOS data. The [IOOS Service & Data Registration Guide](https://ioos.github.io/catalog/pages/registry/) describes the Harvest Registry API, elaborates on registration process details and best practices for IOOS Data Provider, and provides examples of useful scripts. 
+
+### **IOOS Convention for Observing Asset Identification**
+The IOOS Convention for Observing Asset Identification describes the set of rules used by the IOOS program to assign identifiers to observing assets like measurement stations, platforms, sensors, etc.
+* [IOOS Convention for Observing Asset Identification](http://ioos.github.io/conventions-for-observing-asset-identifiers/)
+
+
+### **IOOS SOS Guidelines**
+The IOOS SOS Guidelines document the technical specifications, guidelines, templates, and tests essential for configuration and deployment of an IOOS DMAC-compliant SOS server.  The IOOS SOS is a profile of the OGC Sensor Web Enablement (SWE) Sensor Observation Service (SOS) v1.0.  The SOS Guidelines site includes the technical specifications of the IOOS SOS Web Service Description Document (WSDD), response templates for IOOS SOS operations (GetCapabilities, DescribeSensor, GetObservation), and a compliance test suite description.
+
+* [IOOS SOS Application Profile Overview](https://ioos.github.io/sos-guidelines/)
+* [IOOS SOS 1.0 Web Service Description Document](https://ioos.github.io/sos-guidelines/sos-wsdd-1-0.html)   
+
+
+### **IOOS Data Encoding in CSV/TSV**
+The IOOS Convention for Observation Data Encoding in CSV/TSV describes the rules and constraints for encoding observation data as plain text Comma-Separated Values (CSV) or Tab-Separated Values (TSV).
+* [IOOS Convention for Observation Data Encoding in CSV/TSV](http://ioos.github.io/ioos-csv-tsv/)
+
+### **IOOS Controlled Vocabularies**
+A collection of guidelines on the Controlled Vocabularies usage in IOOS-compliant data services.
+* [IOOS Controlled Vocabularies](https://github.com/ioos/vocabularies)
 
 <!--
-### **IOOS Configuration Management**{: style="color: crimson"}
+### **Data Services for Animal Telemetry**
 
-A [collection of documents](http://ioos.github.io/configuration-management) that describe the IOOS Configuration Management (CM) process, identify CM roles and responsibilities, resources, and formal processes and procedures to ensure that all proposed changes to major DMAC components and applications are evaluated and approved before implementation. The CM is a key process for maintaining the appropriate level of information assurance for DMAC implementation.
--->
+A [collection](http://ioos.github.io/animal-telemetry/) of documents describing animal telemetry implementation:
 
-### **IOOS SOS Guidelines**{: style="color: crimson"}
-
-A [cookbook](https://ioos.github.io/sos-guidelines/index.html) for IOOS Application Profile of the OGC SOS v1.0 that includes guidelines, templates, and tests essential for service development and deployment:    
-
-* [Overview of IOOS SOS Application Profile](https://ioos.github.io/sos-guidelines/index.html)
-* [List of IOOS-specific compliance tests](https://ioos.github.io/sos-guidelines/sos-test-list-summary.html)  
-* [IOOS SOS 1.0 Web Service Description Document](https://ioos.github.io/sos-guidelines/sos-wsdd-1-0.html)   
-* IOOS SOS Response Templates:
-  - [GetCapabilities](https://ioos.github.io/sos-guidelines/sos-getcapabilities.html/)
-  - [DescribeSensor for a network of platforms](https://ioos.github.io/sos-guidelines/sml-describesensor-network.html)
-  - [DescribeSensor for a single platform](https://ioos.github.io/sos-guidelines/sml-describesensor-station.html)
-  - GetObservation:
-     * [Generic OM part](https://ioos.github.io/sos-guidelines/om-getobservation.html)
-     * [TimeSeries SWE Data Record’s static and dynamic fields for multiple stations with multiple sensors](https://ioos.github.io/sos-guidelines/swe-multistation-timeseries.html)
-     * [TimeSeries SWE Data Record’s static and dynamic fields for multiple stations with multiple sensors and QC elements](https://ioos.github.io/sos-guidelines/swe-multistation-timeseries-qc.html)
-     * [TimeSeries SWE Data Record’s static and dynamic fields for a single station with a single sensor](https://ioos.github.io/sos-guidelines/swe-singlestation-singleproperty-timeseries.html)
-     * [TimeSeriesProfile SWE Data Record’s static and dynamic fields for a station with profiling sensors](https://ioos.github.io/sos-guidelines/swe-singlestation-timeseriesprofile.html)
-     * [TimeSeriesProfile SWE Data Record’s static and dynamic fields for a station with profiling sensors and QC elements](https://ioos.github.io/sos-guidelines/swe-singlestation-timeseriesprofile-qc.html)   
-
-### **NetCDF and OPeNDAP**{: style="color: crimson"}
-
-* [IOOS netCDF Guidelines](https://ioos.github.io/ioos-netcdf/)
-* [IOOS Compliance Checker](https://github.com/ioos/compliance-checker) - a tool to check local/remote netCDF datasets against a variety of compliance standards. 
-
-<!-- * (https://github.com/dpsnowden/netcdf-guidelines). -->
-
-### **Data Encoding in CSV/TSV**{: style="color: crimson"}
-
-The [IOOS Convention for Observation Data Encoding in CSV/TSV](http://ioos.github.io/ioos-csv-tsv/) document describes the rules and constraints for encoding observation data as plain text Comma-Separated Values (CSV) or Tab-Separated Values (TSV).
-
-### **Asset Identification**{: style="color: crimson"}
-
-The [IOOS Convention for Observing Asset Identifiers](http://ioos.github.io/conventions-for-observing-asset-identifiers/) document describes the set of rules used by the IOOS program to assign identifiers to observing assets like measurement stations, platforms, sensors, etc.
-
-### **Vocabularies**{: style="color: crimson"}
-
-A [collection](https://github.com/ioos/vocabularies) of guidelines on the Controlled Vocabularies usage in IOOS-compliant data services (the link temporarily leads to the GitHub repository itself rather then to the GitHub Pages).
-
-### **Data Services for Animal Telemetry**{: style="color: crimson"}
-
-A [collection](http://ioos.github.io/animal-telemetry/) of documents describing animal telemetry implementation: 
-
-* A brief [description](http://ioos.github.io/animal-telemetry/about/) of the National Animal Telemetry Network (ATN). 
+* A brief [description](http://ioos.github.io/animal-telemetry/about/) of the National Animal Telemetry Network (ATN).
 * [Strategic Plan And Recommendations](http://ioos.github.io/animal-telemetry/animal-telemetry-plan/) for a National ATN through U.S. IOOS
 * [IOOS Animal Acoustic Telemetry (AAT) Data Project](http://ioos.github.io/animal-telemetry/aat_data_ioostech_wiki/).
-
-### **Passive Acoustics Metadata**{: style="color: crimson"}
-
-The [Metadata Convention for Passive Acoustic Recording](https://ioos.github.io/passive-acoustics/) defines metadata that supports the mission of the National Oceanic and Atmospheric Administration (NOAA) for acquisition, archiving, and dissemination of ocean passive acoustic data. 
-
-<!--
-# Contributing and changes
-
-To make changes to this website and add information, see the [Website Deployment Workflow](website_deployment_workflow_updated) page. 
-
 -->
 
+### **Passive Acoustics Metadata**
+The Metadata Convention for Passive Acoustic Recording defines metadata that supports the mission of the National Oceanic and Atmospheric Administration (NOAA) for acquisition, archiving, and dissemination of ocean passive acoustic data.
+* [Metadata Convention for Passive Acoustic Recording](https://ioos.github.io/passive-acoustics/)
 
 <br><br>
 
-## **Projects**{: style="color: crimson"}
-
-<!-- <a name="System Integration Test"></a> -->
-
+## **Software, Tools, and Projects**
+A collection of IOOS-developed software tools that data providers can use to publish DMAC-compliant datasets and services.  Also included in this list are IOOS projects that aggregate datasets throughout the IOOS enterprise as a whole for search and discovery, and demonstrate usage of IOOS DMAC services for scientific analysis.
 * * *
 
-### **IOOS Catalog of Data and Services**{: style="color: crimson"}
+### **IOOS Compliance Checker**
+The IOOS Compliance Checker is a python based tool for data providers to check for completeness and community standard compliance of local or remote netCDF files against CF and ACDD file standards. The python module can be used as a command-line tool or as a library that can be integrated into other software.  There is also a web-based version of Compliance Checker for users who want to test their own datasets but do not wish to download the software.
+* [IOOS Compliance Checker](https://github.com/ioos/compliance-checker)
+* [Compliance Checker Web](https://compliance.ioos.us/)
 
-* [The IOOS Data Catalog](http://data.ioos.us).  Open data catalog powered by CKAN and pycsw providing an inventory of IOOS' data products and services.  More Catalog documentation available at [https://ioos.github.io/catalog](https://ioos.github.io/catalog).
-* [IOOS Catalog GitHub repository for documentation and issues](https://github.com/ioos/catalog)
-* Another [GitHub repository](https://github.com/ioos/service-monitor) that holds source codes and modules of the IOOS Service Monitor (old version of the IOOS Catalog)
 
-### **System Integration Test**{: style="color: crimson"}
+### **IOOS Data Demo Center**
+The IOOS Data Demo Center is a collection [Jupyter Notebook](https://jupyter.org/)-based tutorials and examples of how to access and utilize the many IOOS technologies and data sources available. This site is geared towards scientists and environmental managers interested in “diving deep” into the numbers and creating original plots and data analysis. Most notebook examples are written in Python, however, there are also notebooks written in Matlab, and R.
+* [IOOS Data Demo Center](https://ioos.github.io/notebooks_demos/)
 
-The [system integration test development site](https://github.com/ioos/system-test) on github contains IPython notebooks demonstrating how to access data from servers in various scenarios. 
 
-### **IOOS ncSOS**{: style="color: crimson"}
+### **IOOS Data Catalog**
+IOOS operates the IOOS Data Catalog to facilitate search and discovery of datasets and services.  The Catalog represents the full enterprise inventory of IOOS network datasets and services.  It is an open data catalog powered by CKAN and pycsw that allows web-based search, discovery, and preview, as well as machine-to-machine query via OGC CS-W service and a custom REST API.  All IOOS data providers must convert their [IOOS Metadata Profile](https://ioos.github.io/#ioos-metadata-profile)-compliant datasets and corresponding services and represent them in ISO 19115 XML metadata records, which can then be registered with the IOOS Data Catalog.  The registration process is handled by the IOOS Harvest Registry, a companion product to the Data Catalog.  The Harvest Registry includes both a web UI and API for programmatic-registration of datasets.
+* [IOOS Data Catalog](https://data.ioos.us)
+* [IOOS Catalog Documentation Site](https://ioos.github.io/catalog/)
+* [IOOS Harvest Registry Service & Data Registration Guide](https://ioos.github.io/catalog/pages/registry/)
 
-The [IOOS ncSOS](https://github.com/asascience-open/ncSOS) adds an OGC SOS service to datasets in your existing THREDDS server. It complies with the [IOOS SWE Milestone 1.0 templates](https://github.com/ioos/sos-guidelines/tree/master/template/milestone1.0) and requires your datasets be in any of the [CF 1.6 Discrete Sampling Geometries](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.6/build/cf-conventions.html#discrete-sampling-geometries).
 
-### **i52N and related activities (sensor web harvesters, test tools, etc.)**{: style="color: crimson"}
+### **IOOS ncSOS**
+The IOOS ncSOS THREDDS plugin adds an OGC SOS service to datasets in your existing THREDDS server. It complies with the [IOOS SWE Milestone 1.0 Templates](https://github.com/ioos/sos-guidelines/tree/master/template/milestone1.0) and requires your datasets be in any of the [CF 1.6 Discrete Sampling Geometries](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.6/build/cf-conventions.html#discrete-sampling-geometries) and attributed according to the [IOOS Metadata Profile](https://ioos.github.io/#ioos-metadata-profile).
+* [IOOS ncSOS](https://github.com/asascience-open/ncSOS)
 
-*  [i52N-SOS](http://ioos.github.io/i52n-sos/), an IOOS customized build of the [52°North Sensor Observation Service (SOS)](http://52north.org/sos) that extends the stock upstream [52°North SOS](https://github.com/52North/SOS) with IOOS specific encoding formats, test data, and more.
-* [IOOS SOS Compliance Test Tool](https://github.com/ioos/ioos-sos-compliance-tests), a set of CTL ([compliance test language](http://portal.opengeospatial.org/files/?artifact_id=33085)) files and utility scripts for thorough standard validation and test of the IOOS SOS implementations.
+### **i52N SOS and Related Utilities**
+The IOOS i52N SOS is an IOOS-customized build of the [52°North OGC Sensor Observation Service](https://github.com/52North/SOS) that is extended with IOOS specific encoding formats, test data, and more.  The IOOS SOS Compliance Test Tool is a set of CTL ([compliance test language](http://portal.opengeospatial.org/files/?artifact_id=33085)) files and utility scripts to validate function of IOOS SOS implementations.
+* [i52N-SOS](http://ioos.github.io/i52n-sos/)
+* [IOOS SOS Compliance Test Tool](https://github.com/ioos/ioos-sos-compliance-tests)
 
-<!-- * [IOOS SOS Validator](https://github.com/ioos/ioos-sos-validator) for simple schema validation of SOS responses and templates --> 
+<!--
+### **System Integration Test**
+The System Integration Test [site](https://github.com/ioos/system-test) on GitHub contains IPython notebooks demonstrating how to access data from servers in various scenarios.
+-->
+
+<!-- * [IOOS SOS Validator](https://github.com/ioos/ioos-sos-validator) for simple schema validation of SOS responses and templates -->
 
 <br><br>
-

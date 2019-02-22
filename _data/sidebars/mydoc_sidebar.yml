@@ -2,97 +2,88 @@
 
 entries:
 - title: sidebar
-  product: IOOS Resources on GitHub and Otherwise
+  product: Menu
   levels: three
-  version: 
+  version:
   folders:
 
-  - title:
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage
-      output: pdf
-      type: frontmatter
-
-  - title: "Guidelines & Specifications"
+  - title: Guidelines & Specifications
     output: web
 
     folderitems:
 
-    - title: DMAC Implementation Guidelines for Data Providers
-      url: /index.html#dmac-implementation-guidelines-for-data-providers
+    - title: DMAC Implementation Requirements for Data Providers
+      url: /index.html#dmac-implementation-requirements-and-guidelines-for-ioos-data-providers
       output: web
 
-    - title: IOOS Service Registration
-      url: /index.html#ioos-service-registration
+    - title: IOOS Metadata Profile
+      url: /index.html#ioos-metadata-profile
       output: web
 
-#    - title: IOOS Configuration Management
-#      url: /index.html#ioos-configuration-management
-#      output: web
+    - title: IOOS Convention for Observing Asset Identification
+      url: /index.html#ioos-convention-for-observing-asset-identification
+      output: web
 
-    - title: IOOS SOS Guidelines 
+    - title: IOOS SOS Guidelines
       url: /index.html#ioos-sos-guidelines
       output: web
 
-    - title: NetCDF and OPeNDAP
-      url: /index.html#netcdf-and-opendap
+    - title: "IOOS Data Encoding in CSV/TSV"
+      url: /index.html#ioos-data-encoding-in-csvtsv
       output: web
 
-    - title: "Data Encoding in CSV/TSV"
-      url: /index.html#data-encoding-in-csvtsv
-      output: web
-
-    - title: Asset Identification
-      url: /index.html#asset-identification
-      output: web
-
-    - title: Vocabularies
-      url: /index.html#vocabularies
-      output: web
-
-    - title: Data Services for Animal Telemetry
-      url: /index.html#data-services-for-animal-telemetry
+    - title: IOOS Controlled Vocabularies
+      url: /index.html#ioos-controlled-vocabularies
       output: web
 
     - title: Passive Acoustics Metadata
       url: /index.html#passive-acoustics-metadata
       output: web
 
-  - title: "Projects"
+#    - title: IOOS Configuration Management
+#      url: /index.html#ioos-configuration-management
+#      output: web
+
+#    - title: Data Services for Animal Telemetry
+#      url: /index.html#data-services-for-animal-telemetry
+#      output: web
+
+
+  - title: Software, Tools, and Projects
     output: web, pdf
 
     folderitems:
 
-    - title: "IOOS Catalog of Data and Services"
-      url: /index.html#ioos-catalog-of-data-and-services
+    - title: IOOS Compliance Checker
+      url: /index.html#ioos-compliance-checker
       output: web
 
-    - title: System Integration Test
-      url: /index.html#system-integration-test
+    - title: IOOS Data Demo Center
+      url: /index.html#ioos-data-demo-center
+      output: web
+
+    - title: IOOS Data Catalog
+      url: /index.html#ioos-data-catalog
       output: web
 
     - title: IOOS ncSOS
       url: /index.html#ioos-ncsos
       output: web
 
-    - title: i52N and related activities
-      url: /index.html#i52n-and-related-activities-sensor-web-harvesters-test-tools-etc
+    - title: i52N SOS and Utilities
+      url: /index.html#i52n-sos-and-related-utilities
       output: web
 
-  - title: "HowTo: IOOS GitHub Pages"
+#    - title: System Integration Test
+#      url: /index.html#system-integration-test
+#      output: web
+
+
+  - title: HowTo - IOOS GitHub Pages
     output: web
 
     folderitems:
 
-    - title: "Getting started with IOOS Documentation Theme"
+    - title: Getting started with IOOS Documentation Theme
       url: /website-deployment-jekyll.html
       output: web
-
-
