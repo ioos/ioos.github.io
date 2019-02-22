@@ -131,7 +131,7 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 
 # added settings for IOOS:
 url                      : "https://ioos.github.io"
-baseurl                  : "/ioos.github.io"
+baseurl                  : ""
 
 repository               : "ioos/documentation-theme-jekyll"
 

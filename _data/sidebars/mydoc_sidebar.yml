@@ -20,6 +20,10 @@ entries:
       url: /index.html#ioos-metadata-profile
       output: web
 
+    - title: IOOS National Glider DAC Wiki
+      url: /index.html#ioos-national-glider-dac-wiki
+      output: web
+
     - title: IOOS Convention for Observing Asset Identification
       url: /index.html#ioos-convention-for-observing-asset-identification
       output: web
