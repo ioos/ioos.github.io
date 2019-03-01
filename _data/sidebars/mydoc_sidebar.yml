@@ -32,7 +32,7 @@ entries:
       url: /index.html#ioos-sos-guidelines
       output: web
 
-    - title: "IOOS Data Encoding in CSV/TSV"
+    - title: IOOS Data Encoding in CSV/TSV
       url: /index.html#ioos-data-encoding-in-csvtsv
       output: web
 
