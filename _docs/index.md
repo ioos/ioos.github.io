@@ -2,7 +2,6 @@
 title: "IOOS Documentation Portal"
 keywords: [DMAC, homepage, documentation, guidelines, specifications]
 tags: [DMAC, homepage, documentation, guidelines, specifications]
-#topnav: topnav
 toc: false
 #permalink: index.html
 summary: IOOS Documentation Portal is a collection of IOOS Data Management and Communication (DMAC) guidelines, specifications, and software tools that allow IOOS data provider organizations to publish their data in an interoperable fashion adhering to DMAC principles.  This page describes the various components and where to find more information on each.

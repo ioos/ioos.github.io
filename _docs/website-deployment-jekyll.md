@@ -2,8 +2,6 @@
 title: Getting started with IOOS Documentation Theme
 keywords: sample homepage
 tags: [getting_started, about, overview]
-sidebar: mydoc_sidebar
-topnav: topnav
 toc: false
 search: exclude
 #permalink: index.html
@@ -13,7 +11,7 @@ summary: These brief instructions will help you get started quickly with the IOO
 
 ## Building a Documentation Site with the Theme
 
-Follow these instructions to build the new documentation site on GitHub Pages with the IOOS Documentation Theme for Jekyll adapted for IOOS specifics. The [IOOS Documentation Theme for Jekyll](https://github.com/ioos/documentation-theme-jekyll) is a fork of the original ["Documentation Theme for Jekyll"](https://github.com/tomjohnson1492/documentation-theme-jekyll) modified for the IOOS specifics. 
+Follow these instructions to build the new documentation site on GitHub Pages with the IOOS Documentation Theme for Jekyll adapted for IOOS specifics. The [IOOS Documentation Theme for Jekyll](https://github.com/ioos/documentation-theme-jekyll) is a fork of the original ["Documentation Theme for Jekyll"](https://github.com/tomjohnson1492/documentation-theme-jekyll) modified for the IOOS specifics.
 
 This single IOOS theme was developed to streamline and simplify management of the IOOS documentation sites hosted on GitHub Pages. When a new IOOS documentation site is built following the instructions described here,
 it will provide a consistent look and feel across all of IOOS' project documentation sites, and will simplify the process
@@ -26,7 +24,7 @@ the Jekyll boilerplate code to match in each.
 
 Deploying this template for your own IOOS-branded GitHub Pages documentation site can be done in a couple different ways, which mainly differ from each other in whether the Jekyll development environment is set to run locally for more rapid iterative markdown/content update, or the GitHub Pages' own Jekyll framework is used to render updates (GitHub Pages internally uses Jekyll to render HTML from markdown).  The latter approach allows to just copy the content of the skeleton theme repository into your own repository 'gh-pages' branch, make a few config file modifications, and push to GitHub directly to see a rendered site matching exactly this site without any special software on your workstation (other than perhaps a GitHub client for pushing updates to GitHub).
 
-In the event that the documentation site had already been deployed, and all it takes is just a minor text update, it can be done by editing the content markdown files content directly on GitHub with a browser; no software installation is required in such case. 
+In the event that the documentation site had already been deployed, and all it takes is just a minor text update, it can be done by editing the content markdown files content directly on GitHub with a browser; no software installation is required in such case.
 
 ### STEP 1. Local Jekyll Development
 
@@ -38,7 +36,7 @@ Running Jekyll locally will allow for faster site development, but you need to i
 
 ### STEP 2. Download and install the theme
 
-If you can't run Ruby/Jekyll on your workstation, you can still make a GitHub Pages documentation site based on this template.  The process to do this is to download the code from the 'gh-pages' branch of the "IOOS Documentation Theme for Jekyll" repository, adapt for your site needs, and publish to a 'gh-pages' branch of your own repository. 
+If you can't run Ruby/Jekyll on your workstation, you can still make a GitHub Pages documentation site based on this template.  The process to do this is to download the code from the 'gh-pages' branch of the "IOOS Documentation Theme for Jekyll" repository, adapt for your site needs, and publish to a 'gh-pages' branch of your own repository.
 
 [**Figure 1**](#Fig_1) depicts a process flowchart that encompasses the possible options for creating or modifying an IOOS Documentation GitHub Pages with the IOOS Documentation Theme for Jekyll.  
 
@@ -50,7 +48,7 @@ Depending on how familiar you are with the 'git' software, and whether you alrea
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2a. Conversion of the existing GitHub repository to the IOOS Documentation Theme
 
-First download the theme from the [Github repo](https://github.com/ioos/documentation-theme-jekyll): 
+First download the theme from the [Github repo](https://github.com/ioos/documentation-theme-jekyll):
 
 ```
 cd /my/sourcecode/dir
@@ -74,15 +72,15 @@ git commit -a -m "Initial GitHub Pages site built using 'IOOS Documentation Them
 git push origin gh-pages
 ```
 
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2b. Publishing a new GitHub documentation site with the IOOS Documentation Theme 
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2b. Publishing a new GitHub documentation site with the IOOS Documentation Theme
 
-First you need to create a new target repository, for example, a repository 'my-new-doc-repo' in the IOOS organization on GitHub. 
+First you need to create a new target repository, for example, a repository 'my-new-doc-repo' in the IOOS organization on GitHub.
 
->**IMPORTANT NOTE:** Do not make a README.md file when GitHub offers to do so, if you only want to create a `gh-pages` branch (i.e. you only want to publish documents on the Web) -- that will create a `master` branch, which you do not need. The README.md will be automatically added to the `gh-pages` branch on the next stage, and you will be able to edit it as needed. 
+>**IMPORTANT NOTE:** Do not make a README.md file when GitHub offers to do so, if you only want to create a `gh-pages` branch (i.e. you only want to publish documents on the Web) -- that will create a `master` branch, which you do not need. The README.md will be automatically added to the `gh-pages` branch on the next stage, and you will be able to edit it as needed.
 
 Next, you need to mirror a bare-bone repository 'ioos-documentation-jekyll-skeleton' that includes all necessary file templates onto the newly created repository:  
 
-``` 
+```
 git clone --bare -b gh-pages https://github.com/ioos/ioos-documentation-jekyll-skeleton.git
 cd ioos-documentation-jekyll-skeleton.git
 git push --mirror https://github.com/ioos/my-new-doc-repo.git
@@ -116,7 +114,7 @@ The important files and directories to modify the template are the following:
   >
   >```
   >git fetch --all
-  >git reset --hard origin/[branch-you-made-changes-on] 
+  >git reset --hard origin/[branch-you-made-changes-on]
   >```
   >
   > where `git fetch` downloads the latest from remote without trying to merge or rebase anything, and `git reset` resets the branch to what you just fetched; the `--hard` option changes all the files in your working tree to match the files in `origin/[branch-you-made-changes-on]`.
@@ -151,7 +149,7 @@ topnav: topnav
 
 Here the `topnav` refers to the `_data/topnav.yml` file. Most likely, there will be no need to edit the default `topnav.yml` file included into the theme template.
 
-### Editing Markdown documents 
+### Editing Markdown documents
 
 This theme uses a Kramdown variety of the Markdown - a lightweight markup language with plain text formatting syntax. The Kramdown is a superset of Markdown that supports standard Markdown and various extensions. The GitHub Pages naturally support rendering documents in Kramdown through the GitHub Jekyll implementation. The detailed description of the Kramdown syntax can be found by following the links in the Reference section below.
 
@@ -180,7 +178,7 @@ Values for `tags` must be defined in your `_data/tags.yml` list. You also need a
 
 In the current version of the theme, the `permalink` property value interferes with other collection settings; therefore it should be commented in the frontmatter. However, it should not be removed as it may be needed in future versions.
 
-Value for `search` controls inclusion of the document content into theme search mechanism. If you want to be able to perform basic search through your site documents, make sure that this property is commented in the frontmatter. 
+Value for `search` controls inclusion of the document content into theme search mechanism. If you want to be able to perform basic search through your site documents, make sure that this property is commented in the frontmatter.
 
 Follow the sample pattern shown in the theme, specifically looking at Markdown sample documents in the `_docs` folder as an example.
 
@@ -195,7 +193,7 @@ This operation should be performed first whenever you modify the content of your
 ## References  
 
  - [Original Documentation for the Documentation Theme for Jekyll](http://idratherbewriting.com/documentation-theme-jekyll/index.html)
-   - [Ruby & Jekyll Installation and Setup Section](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_about_ruby_gems_etc.html) 
+   - [Ruby & Jekyll Installation and Setup Section](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_about_ruby_gems_etc.html)
  - [A Comprehensive Guide for Jekyll](https://jekyllrb.com/docs/home/)
  - [Ruby documentation & downloads](https://www.ruby-lang.org/en/)
     - [Ruby Installer for Windows](http://rubyinstaller.org/downloads/)
@@ -204,5 +202,4 @@ This operation should be performed first whenever you modify the content of your
     - [In particular, how to use a specially-named branch 'gh-pages' to push documentation for a 'Project' page (which most repos will fall under)](https://help.github.com/articles/user-organization-and-project-pages/)
  - GitHub Kramdown:
     - [Kramdown Syntax](https://kramdown.gettalong.org/syntax.html)
-    - [Kramdown Quick Reference](https://kramdown.gettalong.org/quickref.html) 
-
+    - [Kramdown Quick Reference](https://kramdown.gettalong.org/quickref.html)
