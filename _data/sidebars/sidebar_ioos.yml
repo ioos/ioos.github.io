@@ -70,6 +70,10 @@ entries:
       url: /index.html#ioos-data-catalog
       output: web
 
+    - title: MBON Portal
+      url: /index.html#mbon-portal
+      output: web
+
     - title: IOOS ncSOS
       url: /index.html#ioos-ncsos
       output: web
