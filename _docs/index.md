@@ -36,6 +36,11 @@ The IOOS Convention for Observing Asset Identification describes the set of rule
 * [IOOS Convention for Observing Asset Identification](http://ioos.github.io/conventions-for-observing-asset-identifiers/)
 
 
+### **NCEI Data Arciving Guidelines for IOOS**
+This 'cookbook' contains guidelines for IOOS regional data managers to prepare and submit data for archiving at the National Centers for Environmental Information (NCEI).
+* [NCEI Data Arciving Guidelines for IOOS](http://ioos.github.io/ncei-archiving-cookbook//)
+
+
 ### **IOOS SOS Guidelines**
 The IOOS SOS Guidelines document the technical specifications, guidelines, templates, and tests essential for configuration and deployment of an IOOS DMAC-compliant SOS server.  The IOOS SOS is a profile of the OGC Sensor Web Enablement (SWE) Sensor Observation Service (SOS) v1.0.  The SOS Guidelines site includes the technical specifications of the IOOS SOS Web Service Description Document (WSDD), response templates for IOOS SOS operations (GetCapabilities, DescribeSensor, GetObservation), and a compliance test suite description.
 * [IOOS SOS Application Profile Overview](https://ioos.github.io/sos-guidelines/)
