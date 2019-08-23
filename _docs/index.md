@@ -36,9 +36,9 @@ The IOOS Convention for Observing Asset Identification describes the set of rule
 * [IOOS Convention for Observing Asset Identification](http://ioos.github.io/conventions-for-observing-asset-identifiers/)
 
 
-### **NCEI Data Arciving Guidelines for IOOS**
+### **NCEI Data Archiving Guidelines for IOOS**
 This 'cookbook' contains guidelines for IOOS regional data managers to prepare and submit data for archiving at the National Centers for Environmental Information (NCEI).
-* [NCEI Data Arciving Guidelines for IOOS](http://ioos.github.io/ncei-archiving-cookbook//)
+* [NCEI Data Archiving Guidelines for IOOS](http://ioos.github.io/ncei-archiving-cookbook//)
 
 
 ### **IOOS SOS Guidelines**
