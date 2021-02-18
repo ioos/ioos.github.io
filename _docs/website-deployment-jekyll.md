@@ -5,9 +5,12 @@ tags: [getting_started, about, overview]
 toc: false
 search: exclude
 #permalink: index.html
-summary: These brief instructions will help you get started quickly with the IOOS Documentation Theme for Jekyll.
+summary: Instructions for the IOOS Documentation Theme for Jekyll.  Note - this is a legacy documentation page, refer to the https://ioos.github.io/ioos-documentation-jekyll-skeleton/howto.html page for the latest information on how to use these resources for IOOS technical documentation.
 ---
 
+## Note
+
+**This is a legacy documentation page, refer to the [ioos-documentation-jekyll-skeleton HowTo page](https://ioos.github.io/ioos-documentation-jekyll-skeleton/howto.html) for the latest information on how to use these resources for IOOS technical documentation.**
 
 ## Building a Documentation Site with the Theme
 
