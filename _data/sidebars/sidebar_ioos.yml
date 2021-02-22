@@ -83,11 +83,10 @@ entries:
       output: web
 
 
-#  - title: HowTo - IOOS GitHub Pages
-#    output: web
+  - title: IOOS Documentation Framework
+    output: web
+    folderitems:
 
-#    folderitems:
-
-#    - title: Getting started with IOOS Documentation Theme
-#      url: /website-deployment-jekyll.html
-#      output: web
+    - title: Getting Started - IOOS Jekyll Documentation Theme
+      url: /ioos-documentation-jekyll-skeleton\/howto.html
+      output: web
