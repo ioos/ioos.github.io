@@ -83,9 +83,9 @@ The IOOS Compliance Checker is a python based tool for data providers to check f
 * [Compliance Checker Web](https://compliance.ioos.us/)
 
 
-### **IOOS Data Demo Center**
-The IOOS Data Demo Center is a collection [Jupyter Notebook](https://jupyter.org/)-based tutorials and examples of how to access and utilize the many IOOS technologies and data sources available. This site is geared towards scientists and environmental managers interested in “diving deep” into the numbers and creating original plots and data analysis. Most notebook examples are written in Python, however, there are also notebooks written in Matlab, and R.
-* [IOOS Data Demo Center](https://ioos.github.io/notebooks_demos/)
+### **IOOS CodeLab**
+The IOOS CodeLab is a collection [Jupyter Notebook](https://jupyter.org/)-based tutorials and examples of how to access and utilize the many IOOS technologies and data sources available. This site is geared towards scientists and environmental managers interested in “diving deep” into the numbers and creating original plots and data analysis. Most notebook examples are written in Python, however, there are also notebooks written in Matlab, and R.
+* [IOOS CodeLab](https://ioos.github.io/ioos_code_lab/)
 
 
 ### **IOOS Data Catalog**
