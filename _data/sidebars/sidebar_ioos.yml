@@ -62,8 +62,8 @@ entries:
       url: /index.html#ioos-compliance-checker
       output: web
 
-    - title: IOOS Data Demo Center
-      url: /index.html#ioos-data-demo-center
+    - title: IOOS CodeLab
+      url: /index.html#ioos-codelab
       output: web
 
     - title: IOOS Data Catalog
