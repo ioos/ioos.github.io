@@ -34,7 +34,7 @@ exclude:
   - theme/pdf-*
   #- theme/
 
-feedback_subject_line: IOOS Documenation Portal
+feedback_subject_line: ioos.github.io Documentation Portal
 # subject line prefix for feedback emails
 
 feedback_email: data.ioos@noaa.gov
