@@ -17,6 +17,7 @@ jobs:
     steps:
     - name: Checkout repo
       uses: actions/checkout@v3
+      with: { ref: main }
 
     - name: submodule checkout
       run: |
