@@ -24,8 +24,8 @@ entries:
       url: /index.html#ioos-metadata-profile
       output: web
 
-    - title: IOOS National Glider DAC Wiki
-      url: /index.html#ioos-national-glider-dac-wiki
+    - title: IOOS National Glider DAC
+      url: /index.html#ioos-national-glider-dac
       output: web
 
     - title: NCEI Data Archiving Guidelines for IOOS
