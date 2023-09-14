@@ -24,10 +24,10 @@ The IOOS Metadata Profile contains dataset attribution guidelines and examples t
 * [IOOS Metadata Profile](https://ioos.github.io/ioos-metadata/)
 
 
-### **IOOS National Glider DAC Wiki**
-The IOOS National Glider DAC is the official Data Assembly Center (DAC) for all IOOS underwater glider activities.  The Wiki provides glider operators and IOOS data providers technical details on the Glider DAC netCDF data format specifications, information on data provider registration and data set submission processes for contributing real-time and delayed-mode glider data sets to the DAC.  The Glider DAC website includes map-based visualizations, data access links, and information about the Underwater Glider User Group (UG2).
-* [IOOS National Glider DAC Wiki](https://ioos.github.io/ioosngdac/)
-* [IOOS National Glider DAC GitHub](https://github.com/ioos/ioosngdac)
+### **IOOS National Glider DAC**
+The IOOS National Glider DAC is the official Data Assembly Center (DAC) for all IOOS underwater glider activities. The Glider DAC documentation provides glider operators and data providers technical details on netCDF data format specifications, information on data provider registration and data set submission processes for contributing real-time and delayed-mode glider data sets to the DAC. The Glider DAC GitHub is the main repository for glider DAC code and tools, and can be used to submit issues or request enhancements to the Glider DAC. The Glider DAC website includes map-based visualizations, data access links, and information about the Underwater Glider User Group (UG2).
+* [IOOS National Glider DAC](https://ioos.github.io/glider-dac/)
+* [IOOS National Glider DAC GitHub](https://github.com/ioos/glider-dac)
 * [IOOS National Glider Website](https://gliders.ioos.us/)
 
 
