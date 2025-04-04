@@ -66,9 +66,11 @@ A [collection](http://ioos.github.io/animal-telemetry/) of documents describing 
 * [IOOS Animal Acoustic Telemetry (AAT) Data Project](http://ioos.github.io/animal-telemetry/aat_data_ioostech_wiki/).
 -->
 
+<!--
 ### **Passive Acoustics Metadata**
 The Metadata Convention for Passive Acoustic Recording defines metadata that supports the mission of the National Oceanic and Atmospheric Administration (NOAA) for acquisition, archiving, and dissemination of ocean passive acoustic data.
 * [Metadata Convention for Passive Acoustic Recording](https://ioos.github.io/passive-acoustics/)
+-->
 
 <br><br>
 
