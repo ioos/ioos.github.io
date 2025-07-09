@@ -48,10 +48,6 @@ entries:
       url: /index.html#ioos-controlled-vocabularies
       output: web
 
-    - title: Passive Acoustics Metadata
-      url: /index.html#passive-acoustics-metadata
-      output: web
-
 
   - title: Software, Tools, and Projects
     output: web, pdf
