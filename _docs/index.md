@@ -46,6 +46,9 @@ The IOOS SOS Guidelines document the technical specifications, guidelines, templ
 * [IOOS SOS Application Profile Overview](https://ioos.github.io/sos-guidelines/)
 * [IOOS SOS 1.0 Web Service Description Document](https://ioos.github.io/sos-guidelines/sos-wsdd-1-0.html)   
 
+### **Marine Life Data Network Recommendations**
+The IOOS Marine Life Data Network (MLDN) aims to meet the needs identified by the broader marine life observing community for access to and tools for integration and analysis of national and regional data and co-developed data visualization and information products. In the context of this data network, marine life observations and data are defined as **any observations of life across multiple trophic levels (from plankton to whales and including habitat-formers such as corals, seagrasses, macroalgae, etc.) in aquatic (ocean, coast, and Great Lakes) environments**. This website describes the recommendations for formatting and sharing data and metadata for the MLDN community.
+* [IOOS Marine Life Data Network Recommendations](https://ioos.github.io/marine_life_data_network/)
 
 ### **IOOS Data Encoding in CSV/TSV**
 The IOOS Convention for Observation Data Encoding in CSV/TSV describes the rules and constraints for encoding observation data as plain text Comma-Separated Values (CSV) or Tab-Separated Values (TSV).
@@ -66,9 +69,11 @@ A [collection](http://ioos.github.io/animal-telemetry/) of documents describing 
 * [IOOS Animal Acoustic Telemetry (AAT) Data Project](http://ioos.github.io/animal-telemetry/aat_data_ioostech_wiki/).
 -->
 
+<!--
 ### **Passive Acoustics Metadata**
 The Metadata Convention for Passive Acoustic Recording defines metadata that supports the mission of the National Oceanic and Atmospheric Administration (NOAA) for acquisition, archiving, and dissemination of ocean passive acoustic data.
 * [Metadata Convention for Passive Acoustic Recording](https://ioos.github.io/passive-acoustics/)
+-->
 
 <br><br>
 
@@ -94,11 +99,13 @@ IOOS operates the IOOS Data Catalog to facilitate search and discovery of datase
 * [IOOS Catalog Documentation Site](https://ioos.github.io/catalog/)
 * [IOOS Harvest Registry Service & Data Registration Guide](https://ioos.github.io/catalog/pages/registry/)
 
-
+<!--
 ### **MBON Portal**
 The MBON Portal provides access to and interactive visualizations of data associated with the [Marine Biodiversity Observation Network (MBON)](https://ioos.noaa.gov/project/bio-data/). The portal includes real-time, delayed-mode, and historical data for in situ and remotely-sensed physical, chemical, and biological observations. This observation data is focused on organisms from microbes to whales, including measures of biodiversity (e.g. presence, abundance), productivity, genomics, phenology, and other relevant ecological process measurements or indices. Also featured are habitat characterization and habitat diversity measures, including satellite data and added-value data derived from satellite observations, and neural network model results, such as biogeographical seascape classifications. Featured in this portal are biodiversity indices that have been computed for key biological datasets within the MBON regions.
 * [MBON Portal](https://mbon.ioos.us/)
 * [MBON Data and File Formatting Documentation](https://ioos.github.io/mbon-docs/)
+-->
+
 
 ### **IOOS ncSOS**
 The IOOS ncSOS THREDDS plugin adds an OGC SOS service to datasets in your existing THREDDS server. It complies with the [IOOS SWE Milestone 1.0 Templates](https://github.com/ioos/sos-guidelines/tree/master/template/milestone1.0) and requires your datasets be in any of the [CF 1.6 Discrete Sampling Geometries](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.6/build/cf-conventions.html#discrete-sampling-geometries) and attributed according to the [IOOS Metadata Profile](https://ioos.github.io/#ioos-metadata-profile).
